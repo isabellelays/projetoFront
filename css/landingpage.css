@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background: #0c0ce94d;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #6c63ff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.cabecalho-imagem {
+    height: 50px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.cabecalho-menu-item {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+.cabecalho-menu-item:hover {
+    background-color: #5753d6;
+    border-radius: 5px;
+}
+
+.conteudo {
+    margin-top: 100px; /* Adiciona espaço para o cabeçalho fixo */
+    width: 100%;
+    padding: 2rem;
+    text-align: left;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.conteudo-principal-escrito {
+    max-width: 600px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 1rem 0;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #5753d6;
+}
+
+.conteudo-principal-imagem {
+    max-width: 400px;
+    width: 100%;
+}
+
+.rodape {
+    width: 100%;
+    padding: 2rem;
+    background-color: #6c63ff;
+    color: #fff;
+    text-align: center;
+}
+
+.rodape-conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape-menu {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.rodape-menu-item {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.rodape-menu-item:hover {
+    color: #ddd;
+}
+
+.rodape-redes-sociais a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+
+.rodape-redes-sociais a:hover {
+    color: #ddd;
+}
