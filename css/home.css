@@ -16,7 +16,9 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
-    background: #cfadf5;}
+    background: #cfadf5;
+    padding-top: 200px;
+}
 
 .cabecalho {
     display: flex;
@@ -121,8 +123,8 @@ body {
 
 .rodape {
     width: 100%;
-    padding: 1rem; /* Diminuído o padding do rodapé */
-    background-color: #6c63ff; /* Cor especificada */
+    padding: 1rem;
+    background-color: #6c63ff;
     color: #fff;
     text-align: center;
 }
@@ -182,5 +184,21 @@ body {
 
 .botao:hover {
     background-color: #5a54e0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.container-cadastro {
+    margin-bottom: 100px; /* Adjust this value based on the height of your footer */
 }
 
