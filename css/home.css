@@ -186,6 +186,14 @@ body {
     background-color: #5a54e0;
 }
 
+#deleteButton{
+    background-color: #5a54e0;
+}
+
+#deleteAllButton{
+    background-color: #5a54e0;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
